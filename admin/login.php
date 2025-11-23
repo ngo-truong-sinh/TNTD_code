@@ -8,7 +8,7 @@ if (isset($_SESSION['admin']) && $_SESSION['admin'] === true) {
     exit;
 }
 
-$password_correct = 'tntd2025@lphaWolf30'; // ← Thay đổi ở đây nếu muốn
+$password_correct = ''; // ← Thay đổi ở đây nếu muốn
 
 $error = '';
 
